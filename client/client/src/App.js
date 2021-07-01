@@ -4,7 +4,7 @@ import { simpleStorageAbi } from './abi/abis';
 import './App.css';
 const web3 = new Web3(Web3.givenProvider);
 // contract address is provided by Truffle migration
-const contractAddr = '0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47';
+const contractAddr = '0x262E2078217937978cccd3a08681AdD77D5DdFE3';
 const SimpleContract = new web3.eth.Contract(simpleStorageAbi, contractAddr);
 function App() {
   const [name, setName] = useState();

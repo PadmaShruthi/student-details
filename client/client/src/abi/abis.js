@@ -66,7 +66,7 @@ export const simpleStorageAbi=[
     "type": "function"
   },
   {
-    "constant": true,
+    "constant": false,
     "inputs": [
       {
         "internalType": "uint256",
@@ -74,11 +74,20 @@ export const simpleStorageAbi=[
         "type": "uint256"
       }
     ],
+    "name": "setphonenumber",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
     "name": "getphonenumber",
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "phonenumber",
         "type": "uint256"
       }
     ],
@@ -87,7 +96,7 @@ export const simpleStorageAbi=[
     "type": "function"
   },
   {
-    "constant": true,
+    "constant": false,
     "inputs": [
       {
         "internalType": "string",
@@ -95,11 +104,20 @@ export const simpleStorageAbi=[
         "type": "string"
       }
     ],
+    "name": "setaddresshome",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
     "name": "getaddresshome",
     "outputs": [
       {
         "internalType": "string",
-        "name": "",
+        "name": "addresshome",
         "type": "string"
       }
     ],
@@ -108,7 +126,7 @@ export const simpleStorageAbi=[
     "type": "function"
   },
   {
-    "constant": true,
+    "constant": false,
     "inputs": [
       {
         "internalType": "string",
@@ -116,11 +134,20 @@ export const simpleStorageAbi=[
         "type": "string"
       }
     ],
+    "name": "setemailid",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
     "name": "getemailid",
     "outputs": [
       {
         "internalType": "string",
-        "name": "",
+        "name": "emailid",
         "type": "string"
       }
     ],
@@ -129,7 +156,7 @@ export const simpleStorageAbi=[
     "type": "function"
   },
   {
-    "constant": true,
+    "constant": false,
     "inputs": [
       {
         "internalType": "uint256",
@@ -137,11 +164,20 @@ export const simpleStorageAbi=[
         "type": "uint256"
       }
     ],
+    "name": "setaadhar",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
     "name": "getaadhar",
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "aadhar",
         "type": "uint256"
       }
     ],
