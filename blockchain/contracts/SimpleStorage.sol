@@ -22,40 +22,40 @@ contract SimpleStorage{
         name=_name;
     }
     
-    function getname() public pure returns(string memory nameValue){
-        return nameValue;
+    function getname() public view returns(string memory){
+        return name;
     }
     function setdept(string memory _dept) public {
         dept=_dept;
     }
-    function getdept() public pure returns(string memory deptValue){
-        return deptValue;
+    function getdept() public view returns(string memory){
+        return dept;
     }
     function setphonenumber(uint _phonenumber) public{
         phonenumber=_phonenumber;
     }
 
-    function getphonenumber() public pure returns(uint phonenumberValue){
-        return phonenumberValue;
+    function getphonenumber() public view returns(uint){
+        return phonenumber;
     }
     
     function setaddresshome(string memory _addresshome) public {
         addresshome=_addresshome;
     }
-    function getaddresshome() public pure returns(string memory addresshomeValue){
-        return addresshomeValue;
+    function getaddresshome() public view returns(string memory ){
+        return addresshome;
     }
     function setemailid(string memory _emailid) public {
         emailid=_emailid;
     }
-    function getemailid() public pure returns(string memory emailidValue){
-        return emailidValue;
+    function getemailid() public view returns(string memory){
+        return emailid;
     }
     
     function setaadhar(uint _aadhar) public {
         aadhar=_aadhar;
     }
-    function getaadhar() public pure returns(uint aadharValue){
-        return aadharValue;
+    function getaadhar() public view returns(uint){
+        return aadhar;
     }
 }

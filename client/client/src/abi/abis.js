@@ -27,12 +27,12 @@ export const simpleStorageAbi=[
     "outputs": [
       {
         "internalType": "string",
-        "name": "name",
+        "name": "",
         "type": "string"
       }
     ],
     "payable": false,
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -57,12 +57,12 @@ export const simpleStorageAbi=[
     "outputs": [
       {
         "internalType": "string",
-        "name": "dept",
+        "name": "",
         "type": "string"
       }
     ],
     "payable": false,
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -87,12 +87,12 @@ export const simpleStorageAbi=[
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "phonenumber",
+        "name": "",
         "type": "uint256"
       }
     ],
     "payable": false,
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -117,12 +117,12 @@ export const simpleStorageAbi=[
     "outputs": [
       {
         "internalType": "string",
-        "name": "addresshome",
+        "name": "",
         "type": "string"
       }
     ],
     "payable": false,
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -147,12 +147,12 @@ export const simpleStorageAbi=[
     "outputs": [
       {
         "internalType": "string",
-        "name": "emailid",
+        "name": "",
         "type": "string"
       }
     ],
     "payable": false,
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -177,12 +177,12 @@ export const simpleStorageAbi=[
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "aadhar",
+        "name": "",
         "type": "uint256"
       }
     ],
     "payable": false,
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   }
 ]
